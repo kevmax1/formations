@@ -11,6 +11,7 @@
     - Dans un css séparé via `link` 
     - La syntaxe : selecteur { propriété: valeur }` 
     - les status (:hover, :focus...)
+    - les sélecteurs (:first-child, :last-child ...)
 - La notion de priorité (quelle règle l'emporte, !important) aka https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
 - Prefix navigateur et notion de compatibilité (découverte de caniuse.com et autoprefixer)
 
