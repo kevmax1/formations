@@ -40,7 +40,7 @@ On ne peut pas présenter toutes les règles mais le but est de donner une base 
     - Block Formatting Context
     - z-index et le context d'empilement [contexte d'empilement](http://iamvdo.me/blog/comprendre-z-index-et-les-contextes-dempilement)
     
-    Sinon toutes les surprises de CSS [merci iamvdo](http://iamvdo.me/blog/ce-que-vous-avez-toujours-voulu-savoir-sur-css)
+Sinon toutes les surprises de CSS [merci iamvdo](http://iamvdo.me/blog/ce-que-vous-avez-toujours-voulu-savoir-sur-css)
     
 - La police
     - font-family
