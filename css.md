@@ -11,7 +11,7 @@
     - Dans un css séparé via `link` 
     - La syntaxe : selecteur { propriété: valeur }` 
     - les status (:hover, :focus...)
-- La notion de priorité (quelle règle l'emporte) aka https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
+- La notion de priorité (quelle règle l'emporte, !important) aka https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
 - Prefix navigateur et notion de compatibilité (découverte de caniuse.com et autoprefixer)
 
 ## Les règles
@@ -42,6 +42,7 @@ On ne peut pas présenter toutes les règles mais le but est de donner une base 
 - Dimensions
     - margin / padding, comment on peut mettre une valeur négative ? dafuk ?
     - width, height
+    - box-sizing (oh le padding agrandit nos largeurs !)
     - min-width, max-height...
 - Apparence
     - background
@@ -61,9 +62,12 @@ On ne peut pas présenter toutes les règles mais le but est de donner une base 
 - Media query
 - Transitions
 - Animations
+- Flexbox
 
-## "Bonnes Pratiques" <= renommer ça parceque ça fait genre j'impose la manière de faire les choses :)
+## Conseils pratiques et outils
 
+- Grille
+- Sprite et Font icones
 - Les unités : %, px, em, rem, ch, vw / vh - vmin / vmax
 - Mobile First
 - SMACSS / BEM
