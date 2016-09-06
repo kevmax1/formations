@@ -9,9 +9,10 @@
     - L'attribute style 
     - la balise `<style>`  
     - Dans un css séparé via `link` 
-    - La syntaxe : selecteur { propriété: valeur }
-    - les status (:hover, :focus...)
-    - les sélecteurs (:first-child, :last-child ...)
+    - La syntaxe : `selecteurs { propriété: valeur }` 
+    - Les combinators (`>`, `+`, `~`, ...)
+    - Les pseudo-classes (`:hover`, `:focus`, ...)
+    - Les pseudo-elements (`::after`, `::before`, ...)
 - La notion de priorité (quelle règle l'emporte, !important) aka https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
 - Prefix navigateur et notion de compatibilité (découverte de caniuse.com et autoprefixer)
 
@@ -38,9 +39,8 @@ On ne peut pas présenter toutes les règles mais le but est de donner une base 
 - Float (ça mérite un chapitre entier XD)
 - Position
     - static
-    - absolute (et donc voir le relative) top left right bottom
+    - absolute / relative (top left right bottom z-index)
     - fixed / sticky
-    - relative
 - Dimensions
     - margin / padding, comment on peut mettre une valeur négative ? dafuk ?
     - width, height
