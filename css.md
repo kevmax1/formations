@@ -9,8 +9,10 @@
     - L'attribute style 
     - la balise `<style>`  
     - Dans un css séparé via `link` 
-    - La syntaxe : selecteur { propriété: valeur }` 
-    - les status (:hover, :focus...)
+    - La syntaxe : `selecteurs { propriété: valeur }` 
+    - Les combinators (`>`, `+`, `~`, ...)
+    - Les pseudo-classes (`:hover`, `:focus`, ...)
+    - Les pseudo-elements (`::after`, `::before`, ...)
 - La notion de priorité (quelle règle l'emporte, !important) aka https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
 - Prefix navigateur et notion de compatibilité (découverte de caniuse.com et autoprefixer)
 
@@ -34,6 +36,7 @@ On ne peut pas présenter toutes les règles mais le but est de donner une base 
     - inline-block
     - table
     - flex (à placer dans un chapitre pour plus tard)
+    - z-index
 - Float (ça mérite un chapitre entier XD)
 - Position
     - static
