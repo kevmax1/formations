@@ -9,7 +9,7 @@
     - L'attribute style 
     - la balise `<style>`  
     - Dans un css séparé via `link` 
-    - La syntaxe : selecteur { propriété: valeur }` 
+    - La syntaxe : selecteur { propriété: valeur }
     - les status (:hover, :focus...)
     - les sélecteurs (:first-child, :last-child ...)
 - La notion de priorité (quelle règle l'emporte, !important) aka https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
@@ -40,6 +40,7 @@ On ne peut pas présenter toutes les règles mais le but est de donner une base 
     - static
     - absolute (et donc voir le relative) top left right bottom
     - fixed / sticky
+    - relative
 - Dimensions
     - margin / padding, comment on peut mettre une valeur négative ? dafuk ?
     - width, height
