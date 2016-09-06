@@ -5,7 +5,7 @@
     
 ## Le langage
 
-- Comment écris-t-on du CSS ?
+- Comment écrit-on du CSS ?
     - L'attribute style 
     - la balise `<style>`  
     - Dans un css séparé via `link` 
